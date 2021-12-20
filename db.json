@@ -1,0 +1,74 @@
+{
+  "posts": [
+    {
+      "id": "4",
+      "name": "earphones",
+      "image": "./assets/earphones.png",
+      "price": "23000",
+      "count": "5"
+    },
+    {
+      "id": "5",
+      "name": "airpods",
+      "image": "./assets/airpods.jpeg",
+      "price": "23000",
+      "count": "5"
+    },
+    {
+      "id": "6",
+      "name": "headphones",
+      "image": "./assets/headphones.jpeg",
+      "price": "23000",
+      "count": "5"
+    },
+    {
+      "id": "7",
+      "name": "laptop",
+      "image": "./assets/laptop.jpeg",
+      "price": "23000",
+      "count": "5"
+    },
+    {
+      "id": "8",
+      "name": "laptopbag",
+      "image": "./assets/laptopbag.jpeg",
+      "price": "2300",
+      "count": "5"
+    },
+    {
+      "id": "9",
+      "name": "smart watch",
+      "image": "./assets/smartwatch.jpeg",
+      "price": "3000",
+      "count": "9"
+    },
+    {
+      "id": "10",
+      "name": "pendrive",
+      "image": "./assets/pendrive.jpeg",
+      "price": "8000",
+      "count": "5"
+    },
+    {
+      "id": "11",
+      "name": "earph",
+      "image": "./assets/choose a file",
+      "price": "23000",
+      "count": "5"
+    },
+    {
+      "id": 13,
+      "name": "kauvya",
+      "image": "./assets/image_50415617.JPG",
+      "price": "99999999999999999999999999",
+      "count": "1"
+    },
+    {
+      "id": 14,
+      "name": "wallpaper",
+      "image": "./assets/5.png",
+      "price": "345",
+      "count": "12"
+    }
+  ]
+}
