@@ -6,7 +6,6 @@ import {  putItemsRequest, getItemsRequest } from '../../utilities/actions'
 function EditCard() {
     const [name, setName] = useState('')
     const [image, setImage] = useState('choose a file')
-    const [price, setPrice] = useState('')
     const [count, setCount] = useState('')
     const [data, setData] = useState([])
     const location = useLocation()
