@@ -63,7 +63,7 @@ function NewItem() {
                 <input type="text"
                 value={count} onChange={(e)=>{setCount(e.target.value)}} />
             </div>
-        <button onClick={(e)=>{submitHandler(e)}}>Add</button>
+        <button className='button' onClick={(e)=>{submitHandler(e)}}>Add</button>
         </form>
     )
 }

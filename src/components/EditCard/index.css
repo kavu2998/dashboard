@@ -8,7 +8,7 @@ input[type=text], input[type=file] {
     box-sizing: border-box;
   }
   
-  button {
+  .button {
     width: 100%;
     background-color: #4CAF50;
     color: white;
@@ -19,7 +19,7 @@ input[type=text], input[type=file] {
     cursor: pointer;
   }
   
- button:hover {
+ .button:hover {
     background-color: #45a049;
   }
   

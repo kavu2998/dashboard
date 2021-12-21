@@ -18,7 +18,7 @@ function CardList() {
     useEffect(() => {
         dispatch(getItemsRequest())
         //setData(items)
-    }, [items])
+    }, [])
 
 
     return (

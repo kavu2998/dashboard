@@ -67,7 +67,7 @@ function EditCard() {
                 <input type="text"
                 value={count} onChange={(e)=>{setCount(e.target.value)}} />
             </div>
-        <button onClick={(e)=>{submitHandler(e)}}>Edit</button>
+        <button className='button' onClick={(e)=>{submitHandler(e)}}>Edit</button>
         </form>
     )
 }
