@@ -2,12 +2,13 @@ import React, {useState, useEffect} from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate, useLocation } from 'react-router-dom';
 import {  putItemsRequest, getItemsRequest } from '../../utilities/actions'
+import './index.css'
 
 function EditCard() {
     const [name, setName] = useState('')
     const [image, setImage] = useState('choose a file')
     const [count, setCount] = useState('')
-    const [data, setData] = useState([])
+    const [price, setPrice] = useState('')
     const location = useLocation()
     const navigate = useNavigate();
 
@@ -17,9 +18,11 @@ function EditCard() {
     useEffect(() => {
         dispatch(getItemsRequest())
         console.log(items.length)
-        setName(location.state.name)
-        setPrice(location.state.price)
-        setCount(location.state.count)
+        if(location.state){
+            setName(location.state.name)
+            setPrice(location.state.price)
+            setCount(location.state.count)
+        }
     }, [])
     
     const submitHandler = (e) => {

@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { getItemsRequest, getItemsSuccess, postItemsRequest } from '../../utilities/actions'
+import './index.css'
 
 function NewItem() {
     const [name, setName] = useState('')
@@ -23,7 +24,7 @@ function NewItem() {
     const submitHandler = (e) => {
         e.preventDefault();
         let item = {
-            id: parseInt(items.length) + 1,
+            id: parseInt(items.length) + 102,
             name,
             image:'./assets/'+image,
             price,

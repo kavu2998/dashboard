@@ -17,7 +17,7 @@ function Card(props) {
             <div className="title"><b>{props.item.name}</b></div>
             <img src={props.item.image} alt="Avatar" style={{ width: '400px', height: '200px' }} />
             <div className="container">
-                <p>{props.item.price}</p>
+                <p>Rs.{props.item.price}</p>
                 <p>{props.item.count}</p>
             </div>
             <div className="container">

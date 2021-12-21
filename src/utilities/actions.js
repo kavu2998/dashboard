@@ -29,7 +29,6 @@ export const postItemsRequest = (item) => {
          .catch(err=>console.log(err))
          
      } 
-
 }
 
 export const deleteItemsRequest = (item) => {
@@ -37,7 +36,7 @@ export const deleteItemsRequest = (item) => {
         axios.delete('http://localhost:8080/posts/'+item)
         .then(response=>{
             console.log('posted',response.data)
-           dispatch(getItemsSuccess(response.data))
+            dispatch(getItemsSuccess(response.data))
         })
         .catch(err=>console.log(err))
     } 
